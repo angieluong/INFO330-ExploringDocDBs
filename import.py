@@ -46,3 +46,6 @@ for row in cursor.fetchall():
     }
 
     pokemonColl.insert_one(pokemon)
+
+conn.close()
+mongoClient.close()
