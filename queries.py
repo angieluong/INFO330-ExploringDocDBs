@@ -22,8 +22,8 @@ def overgrow():
     for pokemon in overgrow_ability:
         print(pokemon)
 
-# pikachu()
-# greater_than_150()
+pikachu()
+greater_than_150()
 overgrow()
 
 
